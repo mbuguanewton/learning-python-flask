@@ -31,7 +31,7 @@ Here's some of the components he walks us through:
 
 ## Requirements
 
-I tried this on Python 2.7, but found that Python 3 just worked.  eslint with cray-cray until I switched over the Py3... so just use it from the get-go and you'll be good.
+I tried this on Python 2.7, but found that Python 3 just worked.  Pylint with cray-cray until I switched over the Py3... so just use it from the get-go and you'll be good.
 
 Other than that, I used PowerShell in VS Code and went to town there for my terminal through out the tutorial.
 
