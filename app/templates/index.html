@@ -6,7 +6,13 @@
 -->
 <html>
 	<head>
+		<!-- Jinja 2 is supported by Flask!  Woohoo! -->
+		<!-- Here come control statements if..else -->
+		{% if title %}
 		<title>{{ title }} - microblog</title>
+		{% else %}
+		<title>Home - microblog</title>
+		{% endif %}
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="static/assets/js/ie/html5shiv.js"></script><![endif]-->
