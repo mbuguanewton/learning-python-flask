@@ -10,12 +10,16 @@ def index():
     user = {'nickname': 'Joe'} # fake user
     posts = [ # fake array of posts
         {
-            'author':   {'nickname': 'C-Mo'},
-            'body':     'Beautiful day in Portland!'
+            'title':        'Portland Review',
+            'author':       {'nickname': 'C-Mo'},
+            'body':         'Beautiful day in Portland!',
+            'image_url':    'https://www.travelportland.com/wp-content/uploads/2013/04/portland-streetcar-downtown.jpg'
         },
         {
-            'author':   {'nickname': 'Rob'},
-            'body':     'The Avengers movie was so cool!'
+            'title':        'Avengers Movie Review',
+            'author':       {'nickname': 'Rob'},
+            'body':         'The Avengers movie was so cool!',
+            'image_url':    'http://cdn.collider.com/wp-content/uploads/2017/02/the-avengers-group-image.jpg'
         }
     ]
 
