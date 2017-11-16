@@ -43,7 +43,7 @@ Go here: [Download Python 3.x](https://www.python.org/downloads/)
 
 Create your `microblog` directory and then create a virtual environment for Python 3 for development by doing
 
-```python
+```
 $ python -m venv flask
 ```
 
@@ -54,7 +54,7 @@ That will create a virtual environment for Python 3 in a directory named Flask.
 We'll use `pip` that was installed into our Python 3 virtual environment to download & install all necessary dependencies.
 
 ###### Linux/MacOS/Cygwin
-```python
+```
 $ flask/bin/pip install flask
 $ flask/bin/pip install flask-login
 $ flask/bin/pip install flask-openid
@@ -70,7 +70,7 @@ $ flask/bin/pip install coverage
 ```
 
 ###### Windows
-```python
+```
 $ flask\Scripts\pip install flask
 $ flask\Scripts\pip install flask-login
 $ flask\Scripts\pip install flask-openid
