@@ -1,3 +1,4 @@
 /.vscode
 /flask
 /app/*.pyc
+/app/__pycache__
